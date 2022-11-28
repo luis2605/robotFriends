@@ -12,7 +12,7 @@ export default class App extends Component {
       searchfield: "",
     };
   }
-
+  //have to be an arrow function
   onSearchChange = (event) => {
     this.setState({ searchfield: event.target.value });
   };
@@ -26,7 +26,7 @@ export default class App extends Component {
     return (
       <>
         <div className="container-input">
-          <h1 className="">RoboPals </h1>
+          <h1 className="">BotList</h1>
           <SearchBox onSearch={this.onSearchChange} />
         </div>
 
