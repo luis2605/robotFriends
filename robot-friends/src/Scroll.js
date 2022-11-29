@@ -1,6 +1,7 @@
 import React from "react";
+import "./scroll.css";
 
 const Scroll = (props) => {
-  return props.children;
+  return <div className="scroll">{props.children}</div>;
 };
 export default Scroll;

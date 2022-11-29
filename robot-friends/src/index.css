@@ -6,13 +6,13 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: #2b2f77;
-  background: -webkit-linear-gradient(
-    66deg,
+  background: -webkit-radial-gradient(
+    circle,
     #2b2f77 0%,
     #141852 50%,
     #070b34 100%
   );
-  background: linear-gradient(66deg, #2b2f77 0%, #141852 50%, #070b34 100%);
+  background: radial-gradient(circle, #2b2f77 0%, #141852 50%, #070b34 100%);
 }
 
 code {

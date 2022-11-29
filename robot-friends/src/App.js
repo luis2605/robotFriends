@@ -2,7 +2,9 @@ import React, { Component, Fragment } from "react";
 import "./app.css";
 import Card from "./Card";
 import { robots } from "./robots";
+
 import Scroll from "./Scroll";
+import Error from "./Error";
 import SearchBox from "./Searchbox";
 
 export default class App extends Component {
@@ -48,7 +50,9 @@ export default class App extends Component {
 
           <div className="container-robots">
             <Scroll>
-              <Card robot={filteredRobots} />
+              <Error>
+                <Card robot={filteredRobots} />
+              </Error>
             </Scroll>
           </div>
         </>

@@ -1,0 +1,14 @@
+.scroll {
+  margin: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-around;
+
+  overflow-x: hidden;
+  overflow-y: scroll;
+
+  /* border: 2px solid black; */
+  height: 400px;
+  width: 80%;
+}
